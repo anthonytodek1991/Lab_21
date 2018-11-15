@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "NewItemInfo";
+}
+
+<h2>New Item Info</h2>
+
+<form action="/Home/AddNewItem">
+    <p>
+        <label>Name</label><br />
+        <input type="text" name="name" />
+    </p>
+
+    <p>
+        <label>Description</label><br />
+        <input type="text" name="details" />
+    </p>
+
+    <p>
+        <label>Quantity</label><br />
+        <input type="number" name="quantity" />
+    </p>
+
+    <p>
+        <label>Price</label><br />
+        <input type="text" name="price" />
+    </p>
+
+    <input type="submit" value="Register" class="btn-default" />
+
+</form>
+
