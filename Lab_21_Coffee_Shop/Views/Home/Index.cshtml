@@ -3,3 +3,29 @@
 }
 
 <a href="/Home/UserRegistration/">User Registration</a>
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Price
+        </th>
+
+    </tr>
+    @foreach (var i in ViewBag.ItemsList)
+    {   <tr>
+            <td>@i.Name</td>
+            <td>@i.Description</td>
+            <td>@i.Quantity</td>
+            <td>@i.Price</td>
+        </tr>
+    }
+</table>

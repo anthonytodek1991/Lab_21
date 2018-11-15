@@ -89,3 +89,7 @@ C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\obj\Debug\Lab_
 C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\obj\Debug\Lab_21_Coffee_Shop.csproj.CopyComplete
 C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\obj\Debug\Lab_21_Coffee_Shop.dll
 C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\obj\Debug\Lab_21_Coffee_Shop.pdb
+C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\bin\EntityFramework.dll
+C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\bin\EntityFramework.SqlServer.dll
+C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\bin\EntityFramework.xml
+C:\Users\tonyt\source\repos\Lab_21_Coffee_Shop\Lab_21_Coffee_Shop\bin\EntityFramework.SqlServer.xml

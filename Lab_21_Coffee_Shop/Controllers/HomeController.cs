@@ -11,6 +11,9 @@ namespace Lab_21_Coffee_Shop.Controllers
     {
         public ActionResult Index()
         {
+            CoffeeShopDBEntities ORM = new CoffeeShopDBEntities();
+            ViewBag.ItemsList = ORM.Items.ToList();
+           
             return View();
         }
 
@@ -27,16 +30,15 @@ namespace Lab_21_Coffee_Shop.Controllers
 
             return View();
         }
-        public ActionResult UserRegistration(string firstName, string lastName, string userEmail, string phoneNumber, string userPassword)
-        {
-            return View();
-        }
-
+        
         public ActionResult AddUser(User newUser)
         {
+            
             if (ModelState.IsValid)
             {
                 ViewBag.WelcomeMessage = $"Welcome {newUser.FirstName}!";
+                CoffeeShopDBEntities DataBase = new CoffeeShopDBEntities();
+                DataBase.Users.Add(newUser);
                 return View("SummaryConfirmation");
             }
             else
@@ -46,9 +48,15 @@ namespace Lab_21_Coffee_Shop.Controllers
             
         }
 
+        public ActionResult UserRegistration()
+        {
+            return View();
+        }
+
         // 1. Make a new action with parameters for each input
         // 2. Validate each input (regex)
         // 3. If all inputs are valid, send them to Welcome page
         // 4. Otherwise, send them to an error page
     }
+
 }
